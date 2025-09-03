@@ -13,6 +13,9 @@
         android:theme="@style/Theme.UrnaEletronica"
         tools:targetApi="31">
         <activity
+            android:name=".tela_sobre"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

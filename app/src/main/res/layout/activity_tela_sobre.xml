@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/dialog_card">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sobre o Aplicativo"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Urna Eletrônica – Versão 1.0\nDesenvolvido por Caio Silva, aluno do Instituto Ivoti.
+ Aplicação desenvolvida no Android Studio para fins de estudo."
+        android:textSize="16sp"
+        android:textColor="#424242"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnFecharSobre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Fechar"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#2196F3"/>
+</LinearLayout>
