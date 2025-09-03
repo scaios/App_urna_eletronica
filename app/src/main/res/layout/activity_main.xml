@@ -58,7 +58,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/tvBeltrano"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
@@ -67,7 +67,19 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/textView10"
-            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+            app:layout_constraintTop_toBottomOf="@+id/tvFulano" />
+
+        <TextView
+            android:id="@+id/pcBeltrano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="0.00%"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@+id/tvBeltrano"
+            app:layout_constraintTop_toBottomOf="@+id/pcFulano" />
 
         <TextView
             android:id="@+id/textView9"
@@ -81,7 +93,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/tvCiclano"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
@@ -91,6 +103,18 @@
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/textView9"
             app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/pcCiclano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="0.00%"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@+id/tvCiclano"
+            app:layout_constraintTop_toBottomOf="@+id/pcBeltrano" />
 
         <TextView
             android:id="@+id/textView8"
@@ -104,7 +128,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
         <TextView
-            android:id="@+id/textView13"
+            android:id="@+id/tvFurunculo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
@@ -113,7 +137,19 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/textView8"
-            app:layout_constraintTop_toBottomOf="@+id/textView16" />
+            app:layout_constraintTop_toBottomOf="@+id/tvZoinho" />
+
+        <TextView
+            android:id="@+id/pcFurunculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="0.00%"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@+id/tvFurunculo"
+            app:layout_constraintTop_toBottomOf="@+id/pcZoinho" />
 
         <TextView
             android:id="@+id/textView7"
@@ -127,7 +163,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
         <TextView
-            android:id="@+id/textView14"
+            android:id="@+id/tvBranco"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
@@ -136,7 +172,19 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/textView7"
-            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+            app:layout_constraintTop_toBottomOf="@+id/tvFurunculo" />
+
+        <TextView
+            android:id="@+id/pcBranco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="0.00%"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@+id/tvBranco"
+            app:layout_constraintTop_toBottomOf="@+id/pcFurunculo" />
 
         <TextView
             android:id="@+id/textView6"
@@ -150,7 +198,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
         <TextView
-            android:id="@+id/textView17"
+            android:id="@+id/tvNulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
@@ -159,6 +207,18 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/pcNulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="0.00%"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@+id/tvNulo"
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
         <TextView
@@ -173,7 +233,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/tvFulano"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
@@ -182,6 +242,18 @@
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/pcFulano"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="0.00%"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@+id/tvFulano"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <TextView
@@ -196,7 +268,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
         <TextView
-            android:id="@+id/textView16"
+            android:id="@+id/tvZoinho"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
@@ -206,6 +278,18 @@
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/textView2"
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <TextView
+            android:id="@+id/pcZoinho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="0.00%"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintStart_toEndOf="@+id/tvZoinho"
+            app:layout_constraintTop_toBottomOf="@+id/pcCiclano" />
 
         <TextView
             android:id="@+id/textView3"
@@ -220,7 +304,7 @@
             app:layout_constraintVertical_bias="0.071" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/tvTotal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
@@ -244,7 +328,7 @@
         app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button"
+            android:id="@+id/btnFulano"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_marginStart="30dp"
@@ -257,7 +341,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button8"
+            android:id="@+id/btnBeltrano"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_marginTop="5dp"
@@ -270,7 +354,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button9"
+            android:id="@+id/btnCiclano"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_marginStart="30dp"
@@ -280,10 +364,10 @@
             android:textColor="@color/white"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
+            app:layout_constraintTop_toBottomOf="@+id/btnFulano" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button10"
+            android:id="@+id/btnZoinho"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_marginTop="15dp"
@@ -293,10 +377,10 @@
             android:textColor="@color/white"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button8" />
+            app:layout_constraintTop_toBottomOf="@+id/btnBeltrano" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button2"
+            android:id="@+id/btnFurunculo"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_marginStart="30dp"
@@ -306,10 +390,10 @@
             android:textColor="@color/white"
             android:textSize="16sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button9" />
+            app:layout_constraintTop_toBottomOf="@+id/btnCiclano" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button11"
+            android:id="@+id/btnNulo"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_marginStart="30dp"
@@ -318,10 +402,10 @@
             android:text="NULO"
             android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button2" />
+            app:layout_constraintTop_toBottomOf="@+id/btnFurunculo" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button12"
+            android:id="@+id/btnBranco"
             android:layout_width="150dp"
             android:layout_height="60dp"
             android:layout_marginTop="15dp"
@@ -331,7 +415,7 @@
             android:textColor="@color/black"
             android:textSize="16sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button10" />
+            app:layout_constraintTop_toBottomOf="@+id/btnZoinho" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
